@@ -1,0 +1,156 @@
+.topHeader {
+  background-color: var(--bg_prymary);
+}
+
+.topHeader > div > nav {
+  display: grid;
+  grid-template-columns: 10% 40% auto;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.navBrand > h1 {
+  font-size: 40px;
+}
+
+.navBrand > h1 > a {
+  text-decoration: none;
+  color: var(--color_gray);
+}
+
+.searchBarHeader {
+  position: relative;
+}
+
+.searchBarHeader > i {
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+}
+
+.searchBarHeader > input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 10px 8px 30px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid transparent;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.searchBarHeader > input:focus {
+  border: 1px solid var(--bg_secondary);
+  padding-left: 10px;
+}
+
+.navItem {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navItem > .cardTop {
+  position: relative;
+}
+
+.cardTop > .cardItemCount {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  top: -7px;
+  right: -10px;
+  background-color: var(--bg_secondary);
+  border-radius: 100%;
+}
+
+.navItem > .cardTop > a > i {
+  font-size: 25px;
+  color: var(--color_gray);
+  cursor: pointer;
+}
+
+.navItem > div:last-child {
+  margin-left: 25px;
+}
+
+.navItem > .accountAction {
+  position: relative;
+  margin-left: 25px;
+}
+
+.navItem > .accountAction > a > button {
+  padding: 8px 15px;
+  background-color: var(--bg_secondary);
+  color: var(--color_gray);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.sellBtnTop {
+  padding: 8px 15px;
+  background-color: #ec4899;
+  color: var(--color_gray);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.userControll {
+  margin-left: 25px;
+  color: var(--color_gray);
+  border: 1px dotted var(--color_gray);
+  padding: 7px 14px;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.userControll > i {
+  margin-right: 8px;
+}
+
+@media only screen and (max-width: 700px) {
+  .topHeader > div > nav {
+    grid-template-columns: 15% 28% 56%;
+    padding: 6px 0;
+  }
+
+  .navBrand > h1 {
+    font-size: 32px;
+  }
+
+  .searchBarHeader > input {
+    padding: 6px 10px 6px 30px;
+  }
+
+  .navItem > div:last-child {
+    margin-left: 10px;
+  }
+
+  .navItem > .accountAction {
+    margin-left: 20px;
+  }
+
+  .sellBtnTop {
+    padding: 7px 5px;
+    font-size: 14px;
+  }
+
+  .navItem > .accountAction > a > button {
+    padding: 7px 5px;
+    font-size: 14px;
+  }
+}

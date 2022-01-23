@@ -1,0 +1,13 @@
+.catagoryImageOver {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.singleCatagoryContainer {
+  height: 100%;
+}
+.catagoryImageOver > h2 {
+  color: var(--color_gray);
+}

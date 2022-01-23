@@ -1,0 +1,16 @@
+.shopplingCardAllItem {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 65% auto;
+  grid-column-gap: 50px;
+}
+
+.cardTitle {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.cardTitle > h2 {
+  color: var(--color_dark);
+}

@@ -1,0 +1,104 @@
+.signIpCard {
+  position: absolute;
+  width: 240px;
+  top: 49px;
+  right: 0;
+  background-color: white;
+  padding: 10px 12px;
+  box-shadow: 0px 0px 9px 0px #a5a3a3a3;
+}
+
+.signIpCard::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: white;
+  top: -10px;
+  right: 30px;
+  transform: rotate(45deg);
+}
+
+.signIpCard > h4 {
+  font-size: 20px;
+  color: var(--color_dark);
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.signUpInput.emailfild {
+  margin-bottom: 15px;
+}
+
+.signUpInput {
+  border-bottom: 1px solid #ddd;
+  display: grid;
+  grid-template-columns: 25px auto;
+  align-items: center;
+}
+
+.signUpInput > i {
+  color: rgb(167, 167, 167);
+  font-size: 17px;
+}
+
+.signUpInput > input {
+  border: none;
+  outline: none;
+  padding: 8px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.forgotPassword {
+  font-size: 13px;
+  color: var(--bg_secondary);
+  text-decoration: none;
+}
+
+.googleAndFacebookBtn {
+  margin: 15px 0;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.googleAndFacebookBtn > button {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.googleAndFacebookBtn > button:first-child {
+  background-color: #3b5998;
+  color: var(--color_gray);
+}
+
+.googleAndFacebookBtn > button:first-child:hover {
+  background-color: #4f6ba7;
+}
+
+.googleAndFacebookBtn > button:last-child {
+  background-color: #db4437;
+  color: var(--color_gray);
+}
+
+.googleAndFacebookBtn > button:last-child:hover {
+  background-color: #da6156;
+}
+
+.signInSubmitBtn {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  outline: none;
+  background-color: var(--bg_secondary);
+  cursor: pointer;
+  border-radius: 5px;
+  color: var(--color_gray);
+}

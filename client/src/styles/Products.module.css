@@ -1,0 +1,30 @@
+.productPageContainer {
+  margin-top: 50px;
+}
+
+.productTitle > h2 {
+  font-size: 30px;
+}
+
+.productTitle {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.allProducts {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-template-rows: 200px;
+  grid-auto-rows: 200px;
+  grid-gap: 20px;
+  grid-row-gap: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .allProducts {
+    grid-template-columns: 100%;
+    justify-content: center;
+  }
+}

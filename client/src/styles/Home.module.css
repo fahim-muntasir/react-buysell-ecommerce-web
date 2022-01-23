@@ -1,0 +1,9 @@
+.webBannerImage {
+  padding: 55px 0;
+  text-align: center;
+  color: var(--color_gray);
+}
+
+.webTitleInBanner {
+  font-size: 40px;
+}

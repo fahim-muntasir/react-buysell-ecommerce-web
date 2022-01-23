@@ -1,0 +1,89 @@
+.inputEmail,
+.inputPassword {
+  display: grid;
+  grid-template-columns: 40px auto;
+  align-items: center;
+}
+
+.inputEmail > i,
+.inputPassword > i {
+  font-size: 25px;
+  color: rgb(214, 214, 214);
+}
+
+.inputEmail > input,
+.inputPassword > input {
+  border: none;
+  padding: 10px 0;
+  outline: none;
+  font-size: 16px;
+}
+
+.inputEmail {
+  margin-bottom: 20px;
+}
+
+.inputPassword {
+  margin-bottom: 5px;
+}
+
+.inputEmail,
+.inputPassword {
+  border-bottom: 1px solid #ddd;
+}
+
+.forgotPassword {
+  font-size: 14px;
+  color: var(--bg_secondary);
+}
+
+.fbAndGoogleLoginBtn {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.fbAndGoogleLoginBtn > button {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  outline: none;
+}
+
+.fbAndGoogleLoginBtn > button:first-child {
+  background-color: #3b5998;
+  color: var(--color_gray);
+  cursor: pointer;
+}
+
+.fbAndGoogleLoginBtn > button:first-child:hover {
+  background-color: #4f6ba7;
+}
+
+.fbAndGoogleLoginBtn > button:last-child {
+  background-color: #db4437;
+  color: var(--color_gray);
+  cursor: pointer;
+}
+
+.fbAndGoogleLoginBtn > button:last-child:hover {
+  background-color: #da6156;
+}
+
+.signInSubmitBtn > button {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  outline: none;
+  background-color: var(--bg_secondary);
+  cursor: pointer;
+  color: var(--color_gray);
+  margin-bottom: 20px;
+}
+
+.needAndAccountDiv > p > a {
+  color: var(--bg_secondary);
+  text-decoration: none;
+}
